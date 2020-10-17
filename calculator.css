@@ -1,0 +1,34 @@
+#calculator{
+    height: 350px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left:100px ;
+    background-color: rgb(231, 190, 128);
+}
+
+#input-box{
+height: 46px;
+margin-top: 20px;
+width: 82%;
+border: 2px solid black;
+background-color: rgb(250, 250, 250);
+}
+.num{
+    width: 130px;
+    height: 50px;
+    font-weight: bolder;
+}
+.ops{
+    width: 70px;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.ops:first-of-type{
+    margin-top: 20px;
+   
+}
